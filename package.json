@@ -1,0 +1,11 @@
+{
+  "name": "fitness_website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
